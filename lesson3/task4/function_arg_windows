@@ -1,0 +1,4 @@
+#educational_plugin_window = def you_died(why):
+#educational_plugin_window = why
+#educational_plugin_window =     you_died
+#educational_plugin_window = 'It eats you. Well, that was tasty!'

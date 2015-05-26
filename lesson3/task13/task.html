@@ -1,0 +1,39 @@
+<html>
+<h1>Booleans</h1>
+Booleans are either True or False. In this example, we will do the following:
+<ul>
+    <li>Initially the guard doesn't move, so we set a variable called guard_moved to False</li>
+    <li>
+        We give the player an option to run or go to the door.
+        <br/>
+        Introducing a while loop as well. <strong>Use this with caution, it can cause your programme
+        to go into a loop forever, e.g. looks like it's crashed.</strong>
+        <ul>
+            <li>If player decides to run and the guard has moved (<strong>guard_moved = True</strong>)
+                <br>
+                Result: Game over
+            </li>
+            <li>
+                If player decides to run and the guard hasn't moved (<strong>guard_moved = False</strong>)
+                <br>
+                Result: Guard stupidly looks the other way, and we set guard_moved = True
+            </li>
+            <li>
+                If player goes for the door and the guard has moved (<strong>guard_moved = True</strong>)
+                <br/>
+                Result: Freedom!
+            </li>
+            <li>
+                If player goes for the door and the guard hasn't moved (<strong>guard_moved = False</strong>)
+                <br/>
+                Result: Game over.
+            </li>
+            <li>
+                If player types something gibberish and not recognised
+                <br/>
+                Result: Loops around until the player types run or door.
+            </li>
+        </ul>
+    </li>
+</ul>
+</html>

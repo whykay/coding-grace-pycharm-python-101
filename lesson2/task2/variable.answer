@@ -1,0 +1,1 @@
+player_name = raw_input("What's your name? >")

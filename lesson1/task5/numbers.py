@@ -1,0 +1,2 @@
+print(Insert a number)
+

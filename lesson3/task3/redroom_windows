@@ -1,0 +1,2 @@
+#educational_plugin_window = next_move
+#educational_plugin_window = if "flee" in next_move:

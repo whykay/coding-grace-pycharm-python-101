@@ -1,0 +1,4 @@
+#educational_plugin_window = len(treasure_chest)
+#educational_plugin_window = \t
+#educational_plugin_window = \t
+#educational_plugin_window = ", ".join(treasure_chest)

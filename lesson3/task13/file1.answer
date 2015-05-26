@@ -1,0 +1,20 @@
+guard_moved = False
+
+while True:
+    next_action = raw_input("[run | door] > ").lower()
+    if (next_action == "run") and (guard_moved == True):
+        print("Guard was faster than he looks and your world goes dark...")
+        break
+    elif (next_action == "run") and (guard_moved == False):
+        print("Guard jumps up and looks the other way, missing you entirely.")
+        guard_moved = True
+    elif (next_action == "door") and (guard_moved == True):
+        print("You just slipped through the door before the guard realised it.")
+        print("You are now outside, home free! Huzzah!")
+        break
+    elif (next_action == "door") and (guard_moved == False):
+        print("Guard was faster than he looks and your world goes dark...")
+        break
+    else:
+        print("Not sure what you meant there... try again.")
+        

@@ -1,0 +1,8 @@
+#educational_plugin_window = name
+#educational_plugin_window = lower
+#educational_plugin_window = name = alt_name
+#educational_plugin_window = name = alt_name
+#educational_plugin_window = name
+#educational_plugin_window = player_name
+#educational_plugin_window = get_player_name()
+#educational_plugin_window = player_name

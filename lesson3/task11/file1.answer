@@ -1,0 +1,17 @@
+treasure_chest = ["diamonds", "gold", "silver", "sword"]
+
+for treasure in treasure_chest:
+    print(treasure)
+
+print("What do you want to do?")
+
+print("Take all {} treasure, press '1'".format(len(treasure_chest)))
+print("Leave it, press '2'")
+
+treasure_choice = raw_input("> ")
+
+if treasure_choice == "1":
+    print("\tWoohoo! Bounty and a shiney new sword. /drops your crappy sword in the empty treasure chest.")
+    print("\tYou just received [{}]".format(", ".join(treasure_chest)))
+elif treasure_choice == "2":
+    print("It will still be here (I hope), right after I get past this guard")

@@ -1,0 +1,754 @@
+{
+  "lessons": [
+    {
+      "name": "A few basics first",
+      "task_list": [
+        {
+          "name": "Hello",
+          "task_files": {
+            "hello.py": {
+              "task_windows": [
+                {
+                  "line": 0,
+                  "start": 0,
+                  "hint": "lesson1task1file1_1",
+                  "possible_answer": "print",
+                  "length": 4
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Quotes",
+          "task_files": {
+            "quotes1.py": {
+              "task_windows": [
+                {
+                  "line": 1,
+                  "start": 12,
+                  "hint": "lesson1task2file1",
+                  "possible_answer": "\u0027",
+                  "length": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "More Quotes",
+          "task_files": {
+            "quotes2.py": {
+              "task_windows": [
+                {
+                  "line": 0,
+                  "start": 12,
+                  "hint": "lesson1task3file1_1",
+                  "possible_answer": "\"",
+                  "length": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Even More Quotes",
+          "task_files": {
+            "quotes3.py": {
+              "task_windows": [
+                {
+                  "line": 0,
+                  "start": 6,
+                  "hint": "lesson1task4quotes3_1",
+                  "possible_answer": "\u0027",
+                  "length": 1
+                },
+                {
+                  "line": 0,
+                  "start": 24,
+                  "hint": "lesson1task4quotes3_2",
+                  "possible_answer": "\u0027",
+                  "length": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Numbers",
+          "task_files": {
+            "numbers.py": {
+              "task_windows": [
+                {
+                  "line": 0,
+                  "start": 6,
+                  "hint": "lesson1task5file1_1",
+                  "possible_answer": "123",
+                  "length": 15
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Concatenation",
+          "task_files": {
+            "concatenation.py": {
+              "task_windows": [
+                {
+                  "line": 0,
+                  "start": 6,
+                  "hint": "lesson1task6file1_1",
+                  "possible_answer": "\"hello,\"",
+                  "length": 7
+                },
+                {
+                  "line": 0,
+                  "start": 16,
+                  "hint": "lesson1task6file1_2",
+                  "possible_answer": "\"how are you\"",
+                  "length": 7
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "More concatenation",
+          "task_files": {
+            "concatenation1.py": {
+              "task_windows": [
+                {
+                  "line": 0,
+                  "start": 16,
+                  "hint": "lesson1task7concatenation1_1",
+                  "possible_answer": "1",
+                  "length": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Escaping quotes",
+          "task_files": {
+            "escaping_quotes.py": {
+              "task_windows": [
+                {
+                  "line": 0,
+                  "start": 8,
+                  "hint": "lesson1task8file1_1",
+                  "possible_answer": "\u0027",
+                  "length": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Get player\u0027s name and doing something with it.",
+      "task_list": [
+        {
+          "name": "Get player\u0027s name",
+          "task_files": {
+            "get_player_name.py": {
+              "task_windows": [
+                {
+                  "line": 0,
+                  "start": 6,
+                  "hint": "lesson2task1file1_1",
+                  "possible_answer": "raw_input",
+                  "length": 7
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Variable",
+          "task_files": {
+            "variable.py": {
+              "task_windows": [
+                {
+                  "line": 0,
+                  "start": 0,
+                  "hint": "lesson2task2variable_2",
+                  "possible_answer": "player_name",
+                  "length": 7
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "String Formatting",
+          "task_files": {
+            "stringformatting.py": {
+              "task_windows": [
+                {
+                  "line": 2,
+                  "start": 7,
+                  "hint": "lesson2task3stringformatting_1",
+                  "possible_answer": "Your name is {}",
+                  "length": 7
+                },
+                {
+                  "line": 2,
+                  "start": 23,
+                  "hint": "lesson2task3stringformatting_3",
+                  "possible_answer": "player_name",
+                  "length": 7
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "More fun with string formatting",
+          "task_files": {
+            "stringformatting1.py": {
+              "task_windows": [
+                {
+                  "line": 2,
+                  "start": 12,
+                  "hint": "lesson2task4stringformatting1_1",
+                  "possible_answer": "upper()",
+                  "length": 7
+                },
+                {
+                  "line": 3,
+                  "start": 12,
+                  "hint": "lesson2task4stringformatting1_2",
+                  "possible_answer": "title()",
+                  "length": 7
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Text-based adventure game (step-by-step)",
+      "task_list": [
+        {
+          "name": "Function",
+          "task_files": {
+            "function2.py": {
+              "task_windows": [
+                {
+                  "line": 0,
+                  "start": 0,
+                  "hint": "lesson3task1function2_2",
+                  "possible_answer": "def start_adventure()",
+                  "length": 7
+                },
+                {
+                  "line": 8,
+                  "start": 4,
+                  "hint": "lesson3task1function2_1",
+                  "possible_answer": "start_adventure()",
+                  "length": 7
+                }
+              ]
+            },
+            "function.py": {
+              "task_windows": [
+                {
+                  "line": 11,
+                  "start": 4,
+                  "hint": "lesson3task1file1_1",
+                  "possible_answer": "main()",
+                  "length": 7
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "If Statement",
+          "task_files": {
+            "ifstatement.py": {
+              "task_windows": [
+                {
+                  "line": 6,
+                  "start": 4,
+                  "hint": "lesson3task2ifstatement_3_1",
+                  "possible_answer": "if door_picked \u003d\u003d \"red\":",
+                  "length": 25
+                },
+                {
+                  "line": 8,
+                  "start": 4,
+                  "hint": "lesson3task2ifstatement_3",
+                  "possible_answer": "elif door_picked \u003d\u003d \"blue\":",
+                  "length": 32
+                },
+                {
+                  "line": 10,
+                  "start": 4,
+                  "hint": "lesson3task2ifstatement_3_2",
+                  "possible_answer": "else:",
+                  "length": 28
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Let\u0027s do something in the red room",
+          "task_files": {
+            "redroom.py": {
+              "task_windows": [
+                {
+                  "line": 11,
+                  "start": 4,
+                  "hint": "lesson3task3file1_1",
+                  "possible_answer": "next_move",
+                  "length": 7
+                },
+                {
+                  "line": 14,
+                  "start": 4,
+                  "hint": "lesson3task3file1_2",
+                  "possible_answer": "if \"flee\" in next_move:",
+                  "length": 7
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Passing an argument to a function",
+          "task_files": {
+            "function_arg.py": {
+              "task_windows": [
+                {
+                  "line": 0,
+                  "start": 0,
+                  "hint": "lesson3task4function_arg_3",
+                  "possible_answer": "def you_died(why):",
+                  "length": 7
+                },
+                {
+                  "line": 2,
+                  "start": 33,
+                  "hint": "lesson3task4function_arg_4",
+                  "possible_answer": "why",
+                  "length": 7
+                },
+                {
+                  "line": 8,
+                  "start": 0,
+                  "hint": "lesson3task4function_arg_1",
+                  "possible_answer": "you_died",
+                  "length": 7
+                },
+                {
+                  "line": 8,
+                  "start": 8,
+                  "hint": "lesson3task4function_arg_2",
+                  "possible_answer": "\"It eats you. Well, that was tasty!\"",
+                  "length": 7
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Let\u0027s check out the blue room",
+          "task_files": {
+            "blueroom_lists_if.py": {
+              "task_windows": [
+                {
+                  "line": 7,
+                  "start": 4,
+                  "hint": "lesson3task5blueroom_lists_if_2",
+                  "possible_answer": "treasure_chest",
+                  "length": 7
+                },
+                {
+                  "line": 7,
+                  "start": 14,
+                  "hint": "lesson3task5blueroom_lists_if_1",
+                  "possible_answer": "[\"diamonds\", \"gold\", \"silver\", \"sword\"]",
+                  "length": 7
+                },
+                {
+                  "line": 14,
+                  "start": 7,
+                  "hint": "lesson3task5blueroom_lists_if_3",
+                  "possible_answer": "action.lower()",
+                  "length": 7
+                },
+                {
+                  "line": 14,
+                  "start": 18,
+                  "hint": "lesson3task5blueroom_lists_if_4",
+                  "possible_answer": "[\"treasure\", \"chest\", \"left\"]",
+                  "length": 7
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Check out the treasure chest",
+          "task_files": {
+            "forloop.py": {
+              "task_windows": [
+                {
+                  "line": 30,
+                  "start": 12,
+                  "hint": "lesson3task6forloop_1",
+                  "possible_answer": "for treasure in treasure_chest:",
+                  "length": 7
+                },
+                {
+                  "line": 31,
+                  "start": 22,
+                  "hint": "lesson3task6forloop_2",
+                  "possible_answer": "treasure",
+                  "length": 7
+                }
+              ]
+            },
+            "more_for_loops.py": {
+              "task_windows": [
+                {
+                  "line": 3,
+                  "start": 21,
+                  "hint": "lesson3task6more_for_loops_1",
+                  "possible_answer": "0",
+                  "length": 7
+                },
+                {
+                  "line": 6,
+                  "start": 21,
+                  "hint": "lesson3task6more_for_loops_2",
+                  "possible_answer": "1",
+                  "length": 7
+                },
+                {
+                  "line": 9,
+                  "start": 21,
+                  "hint": "lesson3task6more_for_loops_3",
+                  "possible_answer": "-1",
+                  "length": 7
+                },
+                {
+                  "line": 12,
+                  "start": 21,
+                  "hint": "lesson3task6more_for_loops_4",
+                  "possible_answer": "0:2",
+                  "length": 7
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Lists and slicing",
+          "task_files": {
+            "file1.py": {
+              "task_windows": [
+                {
+                  "line": 3,
+                  "start": 21,
+                  "hint": "lesson3task7file1_1",
+                  "possible_answer": "0",
+                  "length": 7
+                },
+                {
+                  "line": 6,
+                  "start": 21,
+                  "hint": "lesson3task7file1_2",
+                  "possible_answer": "1",
+                  "length": 7
+                },
+                {
+                  "line": 9,
+                  "start": 21,
+                  "hint": "lesson3task7file1_3",
+                  "possible_answer": "-1",
+                  "length": 7
+                },
+                {
+                  "line": 12,
+                  "start": 21,
+                  "hint": "lesson3task7file1_4",
+                  "possible_answer": "0:2",
+                  "length": 7
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Size of the list",
+          "task_files": {
+            "file1.py": {
+              "task_windows": [
+                {
+                  "line": 2,
+                  "start": 58,
+                  "hint": "lesson3task8file1_1",
+                  "possible_answer": "len",
+                  "length": 4
+                },
+                {
+                  "line": 2,
+                  "start": 63,
+                  "hint": "lesson3task8file1_2",
+                  "possible_answer": "treasure_chest",
+                  "length": 4
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Escaping characters",
+          "task_files": {
+            "file1.py": {
+              "task_windows": [
+                {
+                  "line": 1,
+                  "start": 7,
+                  "hint": "lesson3task9file1_1",
+                  "possible_answer": "\\t",
+                  "length": 4
+                },
+                {
+                  "line": 4,
+                  "start": 7,
+                  "hint": "lesson3task9file1_2",
+                  "possible_answer": "\\n",
+                  "length": 4
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "String manipulation",
+          "task_files": {
+            "file1.py": {
+              "task_windows": [
+                {
+                  "line": 1,
+                  "start": 6,
+                  "hint": "lesson3task10file1_1",
+                  "possible_answer": "\",\"",
+                  "length": 4
+                },
+                {
+                  "line": 1,
+                  "start": 11,
+                  "hint": "lesson3task10file1_2",
+                  "possible_answer": "join",
+                  "length": 4
+                },
+                {
+                  "line": 1,
+                  "start": 16,
+                  "hint": "lesson3task10file1_3",
+                  "possible_answer": "treasure_chest",
+                  "length": 4
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "What to do with the treasure chest?",
+          "task_files": {
+            "file1.py": {
+              "task_windows": [
+                {
+                  "line": 7,
+                  "start": 47,
+                  "hint": "lesson3task11file1_1",
+                  "possible_answer": "len(treasure_chest)",
+                  "length": 4
+                },
+                {
+                  "line": 13,
+                  "start": 11,
+                  "hint": "lesson3task11file1_2",
+                  "possible_answer": "\\t",
+                  "length": 4
+                },
+                {
+                  "line": 14,
+                  "start": 11,
+                  "hint": "lesson3task11file1_3",
+                  "possible_answer": "\\t",
+                  "length": 4
+                },
+                {
+                  "line": 14,
+                  "start": 46,
+                  "hint": "lesson3task11file1_4",
+                  "possible_answer": "\", \".join(treasure_chest)",
+                  "length": 4
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Booleans",
+          "task_files": {
+            "file1.py": {
+              "task_windows": [
+                {
+                  "line": 1,
+                  "start": 14,
+                  "hint": "lesson3task12file1_1",
+                  "possible_answer": "False",
+                  "length": 4
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Booleans - Getting past the guard",
+          "task_files": {
+            "file1.py": {
+              "task_windows": [
+                {
+                  "line": 0,
+                  "start": 14,
+                  "hint": "lesson3task13file1_1",
+                  "possible_answer": "False",
+                  "length": 4
+                },
+                {
+                  "line": 6,
+                  "start": 8,
+                  "hint": "lesson3task13file1_4",
+                  "possible_answer": "break",
+                  "length": 4
+                },
+                {
+                  "line": 9,
+                  "start": 22,
+                  "hint": "lesson3task13file1_3",
+                  "possible_answer": "True",
+                  "length": 4
+                },
+                {
+                  "line": 13,
+                  "start": 8,
+                  "hint": "lesson3task13file1_5",
+                  "possible_answer": "break",
+                  "length": 4
+                },
+                {
+                  "line": 16,
+                  "start": 8,
+                  "hint": "lesson3task13file1_6",
+                  "possible_answer": "break",
+                  "length": 4
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Calling a function and return a string",
+          "task_files": {
+            "file1.py": {
+              "task_windows": [
+                {
+                  "line": 3,
+                  "start": 4,
+                  "hint": "lesson3task14file1_1",
+                  "possible_answer": "name",
+                  "length": 4
+                },
+                {
+                  "line": 8,
+                  "start": 14,
+                  "hint": "lesson3task14file1_5",
+                  "possible_answer": "lower",
+                  "length": 4
+                },
+                {
+                  "line": 9,
+                  "start": 8,
+                  "hint": "lesson3task14file1_3",
+                  "possible_answer": "name \u003d alt_name",
+                  "length": 4
+                },
+                {
+                  "line": 15,
+                  "start": 8,
+                  "hint": "lesson3task14file1_4",
+                  "possible_answer": "name \u003d alt_name",
+                  "length": 4
+                },
+                {
+                  "line": 21,
+                  "start": 11,
+                  "hint": "lesson3task14file1_2",
+                  "possible_answer": "name",
+                  "length": 4
+                },
+                {
+                  "line": 23,
+                  "start": 0,
+                  "hint": "lesson3task14file1_7",
+                  "possible_answer": "player_name",
+                  "length": 4
+                },
+                {
+                  "line": 23,
+                  "start": 8,
+                  "hint": "lesson3task14file1_6",
+                  "possible_answer": "get_player_name()",
+                  "length": 4
+                },
+                {
+                  "line": 24,
+                  "start": 6,
+                  "hint": "lesson3task14file1_8",
+                  "possible_answer": "player_name",
+                  "length": 4
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Final Lesson",
+      "task_list": [
+        {
+          "name": "final",
+          "task_files": {
+            "file1.py": {
+              "task_windows": [
+                {
+                  "line": 161,
+                  "start": 4,
+                  "hint": "lesson4task1file1_1",
+                  "possible_answer": "main",
+                  "length": 4
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "description": "Learn about data types, data structures in this beginners Python workshop.",
+  "name": "Learn Python by making a text-based adventure game",
+  "author": "Vicky Twomey-Lee"
+}

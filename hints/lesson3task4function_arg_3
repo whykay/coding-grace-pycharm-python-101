@@ -1,0 +1,3 @@
+Replace with the following to define the function, you_died, and passing in an variable, why:
+
+def you_died(why):

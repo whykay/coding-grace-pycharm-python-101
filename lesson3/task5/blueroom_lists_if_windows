@@ -1,0 +1,4 @@
+#educational_plugin_window = treasure_chest
+#educational_plugin_window = ["diamonds", "gold", "silver", "sword"]
+#educational_plugin_window = action.lower()
+#educational_plugin_window = ["treasure", "chest", "left"]

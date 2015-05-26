@@ -1,0 +1,6 @@
+# Tab
+print("\thello")
+
+# New line
+print("\nhello")
+

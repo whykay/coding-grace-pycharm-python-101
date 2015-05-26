@@ -1,0 +1,9 @@
+def you_died(why):
+    # You expect a reason why the player died. It's a string.
+    print("{}. Good job!".format(why))
+
+    # This exits the program entirely.
+    exit(0)
+
+if __name__ == '__main__':
+    you_died('It eats you. Well, that was tasty!')
